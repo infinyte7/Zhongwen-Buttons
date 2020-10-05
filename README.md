@@ -3,6 +3,9 @@ On screen button to save words, view word list and text to speech for [zhongwen 
 
 On desktop chrome pressing ```r``` and ```alt + w```, save words and view word list respectively. But this can not be done on mobile browser. So, this is implementation for chromium based android browser.
 
+# Demo [in yandex browser]
+<img src="images/demo.gif" height="480"></img>
+
 # Install
 1. Install [zhongwen chrome extension](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde).
 2. Download this repository
@@ -24,9 +27,6 @@ To simulate ```r``` press for saving words to word list
 To simulate ```alt + w``` press for viewing word list
 ### 3. TTS
 Text to speech for first characters selected by zhongwen extension.
-
-# Demo [in yandex browser]
-<img src="images/demo.gif" height="480"></img>
 
 # License
 MIT License
