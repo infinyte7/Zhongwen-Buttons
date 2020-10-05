@@ -3,7 +3,7 @@ On screen button to save words, view word list and text to speech for [zhongwen 
 
 On desktop chrome pressing ```r``` and ```alt + w```, save words and view word list respectively. But this can not be done on mobile browser. So, this is implementation for chromium based android browser.
 
-# Demo [in yandex browser]
+### Demo [in yandex browser]
 <img src="images/demo.gif" height="480"></img>
 
 # Install
