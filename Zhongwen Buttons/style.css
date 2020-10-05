@@ -1,0 +1,97 @@
+:root {
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    --white: #FFFFFF;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+    --btn-1-bg-color: #f44336;
+    --btn-1-light: #ff5555;
+    --btn-1-dark: #d40000;
+    --btn-2-bg-color: #5f8dd3;
+    --btn-2-light: #87aade;
+    --btn-2-dark: #3771c8;
+    --btn-3-bg-color: #37c871;
+    --btn-3-light: #5fd38d;
+    --btn-3-dark: #2ca05a;
+    --btn-4-bg-color: #2a7fff;
+    --btn-4-light: #5599ff;
+    --btn-4-dark: #0055d4;
+}
+
+.zh-buttons-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zh-buttons {
+    margin: 0.1rem;
+    width: 6rem;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease;
+    color: var(--greyDark);
+    font-size: 1rem;
+    user-select: none;
+}
+
+/* button 1 */
+
+.btn1 {
+    display: block;
+    color: var(--greyLight-1);
+    background: var(--btn-1-bg-color);
+}
+
+.btn1:active {
+    box-shadow: inset .2rem .2rem 1rem var(--btn-1-dark), inset -.2rem -.2rem 1rem var(--btn-1-light);
+}
+
+/* button 2 */
+
+.btn2 {
+    display: block;
+    color: var(--greyLight-1);
+    background: var(--btn-2-bg-color);
+}
+
+.btn2:active {
+    box-shadow: inset .2rem .2rem 1rem var(--btn-2-dark), inset -.2rem -.2rem 1rem var(--btn-2-light);
+}
+
+/* button 3 */
+
+.btn3 {
+    display: block;
+    color: var(--greyLight-1);
+    background: var(--btn-3-bg-color);
+}
+
+.btn3:active {
+    box-shadow: inset .2rem .2rem 1rem var(--btn-3-dark), inset -.2rem -.2rem 1rem var(--btn-3-light);
+}
+
+/* button 4 */
+
+.btn4 {
+    display: block;
+    color: var(--greyLight-1);
+    background: var(--btn-4-bg-color);
+}
+
+.btn4:active {
+    box-shadow: inset .2rem .2rem 1rem var(--btn-4-dark), inset -.2rem -.2rem 1rem var(--btn-4-light);
+}
+
+zhongwenbuttons {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1000000000;
+}
