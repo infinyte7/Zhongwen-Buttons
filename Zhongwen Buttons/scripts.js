@@ -1,5 +1,5 @@
 var html = `
-<div id="answerButtons" class="zh-buttons-bottom">
+<div class="zh-buttons-bottom">
     <div id="tts" class="zh-buttons btn4">TTS</div>
     <div id="save_words" class="zh-buttons btn3">Save</div>
     <div id="view_words" class="zh-buttons btn2">View</div>
